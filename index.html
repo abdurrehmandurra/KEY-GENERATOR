@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Key Generator</title>
+		<style>
+			div {
+				margin-top: 4cm;
+				display: flex;
+				flex-direction: column;
+			}
+			#keyText {
+				width: 8cm;
+				margin: auto;
+				display: block;
+				margin-bottom: 1cm;
+				font-size: 1cm;
+				text-align: center;
+				border-radius: 0px;
+				border: 1px solid teal;
+			}
+			#key-btn {
+				font-size: x-large;
+				margin: auto;
+				border: 1px solid #eaeaea;
+				padding: 10px 20px;
+				background-color: rgba(0, 128, 128, 0.473);
+			}
+			button:focus,
+			input:focus {
+				border-radius: 0px;
+				outline: none;
+				outline: 1px solid teal;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<input id="keyText" type="text" />
+			<button id="key-btn">Generate Key</button>
+		</div>
+		<script src="./index.js"></script>
+	</body>
+</html>
